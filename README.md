@@ -1,0 +1,2 @@
+# nybot
+A discord bot.
