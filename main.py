@@ -13,7 +13,9 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.startswith('!hello'):
-        await message.channel.send('Hello there!')
+    if message.content.startswith('`hello'):
+        await message.channel.send('Hello ')
+    if message.content.startswith('`help'):
+        await message.channel.send('H')
 
 client.run(TOKEN)
