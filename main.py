@@ -42,8 +42,8 @@ async def on_message(message):
         await message.channel.send('''
         ``` 
 (prefix - `)
-hello - Says hello to you
-amongus - draws amongus with text
+`hello - Says hello to you
+`amongus - draws amongus with text
 ```
 ''')
 
